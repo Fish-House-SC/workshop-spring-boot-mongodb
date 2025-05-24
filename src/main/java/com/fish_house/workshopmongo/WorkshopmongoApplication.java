@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 
 	public static void main(String[] args) {
+		System.out.println("==> Inicializando aplicação com MongoDB");
 		SpringApplication.run(WorkshopmongoApplication.class, args);
 	}
 
